@@ -12,7 +12,7 @@ const Ball = (props) => {
       <ambientLight intensity={0.5} />
       <directionalLight position={[0, 0, 0.05]} />
       <mesh castShadow recieveShadow scale={2.75}>
-        <icosahedronGeometry args={[1, 1]} />
+        <icosahedronGeometry args={[1, 1]} className="cursor-pointer"/>
         <meshStandardMaterial color='#fff' polygonOffset polygonOffsetFactor={-5} flatShading/>
         <Decal map={decal} position={[0, 0, 1]} flatShading rotation={[2 * Math.PI, 0, 6.25]} />
       </mesh>
