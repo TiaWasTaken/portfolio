@@ -1,4 +1,5 @@
 import {
+  ironbeton,
   uni,
   mobile,
   backend,
@@ -79,7 +80,7 @@ const technologies = [
   },
  {
    name: "Shopify",
-   icon: shopify_logo,
+   icon: shopify,
  },
   {
     name: "React JS",
@@ -123,7 +124,7 @@ const experiences = [
   {
     title: "Tech Collaborator",
     company_name: "Iron Beton",
-    icon: starbucks,
+    icon: ironbeton,
     iconBg: "#383E56",
     date: "Oct 2023 - Apr 2024",
     points: [
