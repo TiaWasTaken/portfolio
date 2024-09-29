@@ -7,6 +7,10 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
+import visual from './tech/visual.png'
+import python from './tech/python.png'
+import c from './tech/C.png'
+import shopify_logo from './tech/shopify_logo.png'
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -21,6 +25,7 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
+import uni from './company/uni_logo.png'
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
@@ -31,6 +36,7 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
+  uni,
   logo,
   backend,
   creator,
@@ -39,6 +45,10 @@ export {
   github,
   menu,
   close,
+  c,
+  python,
+  visual,
+  shopify_logo,
   css,
   docker,
   figma,
