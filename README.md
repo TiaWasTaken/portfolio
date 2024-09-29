@@ -140,7 +140,7 @@ You can easily deploy this project on Vercel, Netlify, or any other static hosti
 
 
 2. **Projects Page**  
-   ![Tech Section](https://github.com/user-attachments/assets/fc5ef607-3565-4705-ae65-375ec299612e)
+   https://github.com/user-attachments/assets/fc5ef607-3565-4705-ae65-375ec299612e
 
 
 
