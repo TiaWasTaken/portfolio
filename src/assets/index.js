@@ -25,6 +25,7 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
+import calendarg from './calendarg.png';
 import ironbeton from './company/ironbeton.png'
 import uni from './company/univr.png'
 import meta from "./company/meta.png";
@@ -39,6 +40,7 @@ import tripguide from "./tripguide.png";
 export {
   uni,
   logo,
+  calendarg,
   ironbeton,
   backend,
   creator,

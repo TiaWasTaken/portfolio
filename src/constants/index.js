@@ -1,4 +1,5 @@
 import {
+  calendarg,
   ironbeton,
   uni,
   mobile,
@@ -204,16 +205,16 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "CalendArg",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based calendar app which lets the user create an account and sign in with Google or GitHub, link that account with Nylas and manage a fully functional calendar app.",
     tags: [
       {
-        name: "react",
+        name: "next.js",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "supabase",
         color: "green-text-gradient",
       },
       {
@@ -221,34 +222,34 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: calendarg,
+    source_code_link: "https://github.com/TiaWasTaken/calendarg",
   },
   {
-    name: "Job IT",
+    name: "Coming Soon",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "supabase",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "tailwindcss",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: calendarg,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Coming Soon",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "",
     tags: [
       {
         name: "nextjs",
@@ -259,11 +260,11 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "tailwindcss",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: calendarg,
     source_code_link: "https://github.com/",
   },
 ];
