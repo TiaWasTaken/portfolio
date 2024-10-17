@@ -1,4 +1,5 @@
 import {
+  smartprice,
   calendarg,
   ironbeton,
   uni,
@@ -226,16 +227,16 @@ const projects = [
     source_code_link: "https://github.com/TiaWasTaken/calendarg",
   },
   {
-    name: "Coming Soon",
+    name: "SmartPrice",
     description:
-      "",
+      "A styled web scraper which let's the user paste an amazon link and displays info about the price of the product over time.",
     tags: [
       {
-        name: "react",
+        name: "next-js",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "cheerio",
         color: "green-text-gradient",
       },
       {
@@ -243,8 +244,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: calendarg,
-    source_code_link: "https://github.com/",
+    image: smartprice,
+    source_code_link: "https://github.com/TiaWasTaken/smartprice",
   },
   {
     name: "Coming Soon",
