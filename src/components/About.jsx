@@ -28,9 +28,8 @@ const About = () => {
       </motion.div>
 
       <motion.p variants={fadeIn("", "", 0.1, 1)} className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
-        I'm currently a student at the University of Verona as I'm currently getting a degree in Computer Science.
-        I expertise in frameworks like React and Node.js. I'm interested in the E-com space and I collaborate closely with Influencers to build and deploy their e-com websites.
-        Let's work together to bring your ideas to life!
+        I'm a student at the <span className="text-white underline underline-offset-2"><a href = "https://www.univr.it/en/home" target="_blank">University of Verona</a></span> as I'm currently getting a degree in Computer Science.
+        I expertise in frameworks like <span className="text-white">React</span> and <span className="text-white">Node.js</span> for the development of <span className="text-white">UX/UI Interfaces</span> for web apps.  
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10 pb-[100px]">

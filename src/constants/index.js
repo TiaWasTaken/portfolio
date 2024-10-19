@@ -54,11 +54,11 @@ const services = [
     icon: web,
   },
   {
-    title: "React Developer",
+    title: "Frontend Designer",
     icon: mobile,
   },
   {
-    title: "Backend Ecom Developer",
+    title: "UX/UI Developer",
     icon: backend,
   },
   {
@@ -81,7 +81,7 @@ const technologies = [
     icon: javascript,
   },
  {
-   name: "Shopify",
+   name: "Shopify Liquid",
    icon: shopify,
  },
   {
@@ -109,7 +109,7 @@ const technologies = [
     icon: threejs,
   },
   {
-    name: "git",
+    name: "Git",
     icon: git,
   },
   // {
