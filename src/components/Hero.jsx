@@ -2,6 +2,7 @@ import React from 'react'
 import { styles } from '../styles'
 import { motion } from 'framer-motion'
 import { ComputersCanvas } from './canvas'
+import githubLogo from '../assets/github.png'
 
 const Hero = () => {
   return (
@@ -16,6 +17,11 @@ const Hero = () => {
           <h1 className={`${styles.heroHeadText} text-white`}>Hi, I'm <span className="text-[#915eff]">Mattia</span></h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100 text-[16px]`}>
             I'm a <span className="text-[#915eff]">19 years old</span> web developer, <br className="sm:block hidden" /> based in <span className="text-[#915eff]">Italy</span>.
+          </p>
+           <p className="mt-4">
+            <a href="https://github.com/TiaWasTaken" target="_blank" rel="noopener noreferrer">
+              <img src={githubLogo} alt="GitHub Logo" className="cursor-pointer w-8 h-8 inline-block" />
+            </a>
           </p>
         </div>
       </div>
