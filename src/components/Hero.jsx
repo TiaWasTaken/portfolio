@@ -35,13 +35,6 @@ const Hero = () => {
 
         </p>
   
-        <p>
-          <a href="https://www.instagram.com/arganetto.mattia" target="_blank" rel="noopener noreferrer" aria-label="Visit my Instagram profile">
-            <img src={instagram} alt="Instagram" className="cursor-pointer w-7 h-7 transition-transform duration-200 ease-in-out hover:scale-110" />
-          </a>
-        </p>
-
-
         </div> 
         
         </div>
