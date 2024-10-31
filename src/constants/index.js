@@ -109,8 +109,8 @@ const technologies = [
     icon: threejs,
   },
   {
-    name: "Git",
-    icon: git,
+    name: "Typescript",
+    icon: typescript,
   },
   // {
   //   name: "Visual Studio Code",
