@@ -35,7 +35,7 @@ const Contact = () => {
 
      emailjs.send(
       'service_38va6cd',
-      'template_ubei6sw', // Update with the correct template ID
+      'template_ubei6sw', // Updated with the correct template ID
       {
         from_name: form.name,
         to_name: 'Mattia',
