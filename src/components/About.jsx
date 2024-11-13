@@ -5,7 +5,7 @@ import { styles } from '../styles'
 import { services } from '../constants'
 import { fadeIn, textVariant } from '../utils/motion'
 import { SectionWrapper } from '../hoc/index.js'
-
+import Meta from '../assets/company/meta.png'
 
 const ServiceCard = ({ index, title, icon }) => {
   return (
@@ -27,11 +27,15 @@ const About = () => {
         <p className={styles.sectionSubText}>Introduction</p>
         <h2 className={styles.sectionHeadText}>Overview.</h2>
       </motion.div>
+     
+      <div className="flex flex-row justify-between">
+        <motion.p variants={fadeIn("", "", 0.1, 1)} className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"> 
+          I'm a student at the <span className="text-white underline underline-offset-2"><a href = "https://www.univr.it/en/home" target="_blank">University of Verona</a></span> as I'm currently getting a degree in Computer Science.
+          I expertise in frameworks like <span className="text-white">React</span> and <span className="text-white">Node.js</span> for the development of <span className="text-white">UX/UI Interfaces</span> for web apps.  
+        </motion.p>
 
-      <motion.p variants={fadeIn("", "", 0.1, 1)} className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
-        I'm a student at the <span className="text-white underline underline-offset-2"><a href = "https://www.univr.it/en/home" target="_blank">University of Verona</a></span> as I'm currently getting a degree in Computer Science.
-        I expertise in frameworks like <span className="text-white">React</span> and <span className="text-white">Node.js</span> for the development of <span className="text-white">UX/UI Interfaces</span> for web apps.  
-      </motion.p>
+        <img src={Meta} alt="Mattia Photo" width={50} height="auto" className="mr-36"/>
+      </div>
 
       <div className="mt-20 flex flex-wrap gap-10 pb-[100px]">
         {services.map((service, index) => (<ServiceCard key={service.title} index={index} {...service}/>))}
