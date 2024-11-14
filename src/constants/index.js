@@ -1,4 +1,5 @@
 import {
+  nextjs,
   smartprice,
   calendarg,
   ironbeton,
@@ -97,8 +98,8 @@ const technologies = [
     icon: tailwind,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
+    name: "Next JS",
+    icon: nextjs,
   },
   {
     name: "Python",
