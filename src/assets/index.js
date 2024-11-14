@@ -24,7 +24,7 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-import nextjs from "./tech/nextjs.svg";
+import nextjs from "./tech/nextjs-white.svg";
 
 import calendarg from './calendarg.png';
 import ironbeton from './company/ironbeton.png'
