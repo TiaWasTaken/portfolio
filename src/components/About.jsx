@@ -36,7 +36,7 @@ const About = () => {
           </motion.p>
         </div>
         
-        <img src={Mattia} alt="Mattia Photo" className="w-60 h-60 mt-4 rounded-m object-cover mr-24 scale-105 transition-all duration-300 hover:scale-110" />
+        <img src={Mattia} alt="Mattia Photo" className="w-60 h-60 mt-4 rounded-2xl object-cover mr-24 scale-105 transition-all duration-300 hover:scale-110" />
       </div>
 
       <div className="mt-20 flex flex-wrap gap-10 pb-[100px]">

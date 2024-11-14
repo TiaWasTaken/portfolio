@@ -9,10 +9,6 @@ import { slideIn } from '../utils/motion';
 
 const Contact = () => {
 
-  // template_id: template_ud361vs
-  // service_id: service_38va6cd
-  // public_key: J55fKF3RwCQgW0vwh
-
   const formRef = useRef();
 
   const [form, setForm] = useState({
